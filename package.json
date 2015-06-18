@@ -1,7 +1,7 @@
 {
   "name": "urequire-rc-iced-coffee-script",
   "description": "uRequire ResourceConverter for 'iced-coffee-script'. See http://urequire.org/resourceconverters.coffee#the-alternative-less-verbose-array-way",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "http://uRequire.org",
   "author": {
     "name": "Agelos Pikoulas",
@@ -38,8 +38,11 @@
   "main": "./source/code/urequire-rc-iced-coffee-script.coffee",
   "preferGlobal": false,
   "engines": {
-    "node": "0.10.x"
+    "node": ">=0.10.x "
   },
+  "peerDependencies": {
+    "urequire": "~0.7.0-beta.17"
+  },  
   "dependencies": {
     "iced-coffee-script": "*"
   }
